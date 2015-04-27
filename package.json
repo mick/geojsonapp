@@ -1,0 +1,28 @@
+{
+  "name": "geojson.app",
+  "appname": "GeoJSON",
+  "version": "0.0.0",
+  "description": "create and edit maps, in an app",
+  "dependencies": {
+    "dnode": "^1.2.0",
+    "mapbox.js": "^2.1.8",
+    "minimist": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo 'not yet'"
+  },
+  "main": "index.js",
+  "bin": {
+    "geojsonapp": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mick/geojson.app.git"
+  },
+  "author": "Mick Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mick/geojson.app/issues"
+  }
+}
