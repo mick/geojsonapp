@@ -49,14 +49,16 @@ function remoteCommands() {
             process.stdin.on('readable', function() {
                 var chunk = this.read();
                 if (chunk === null ) {
-                    if(!first && data === '') d.end();
+                    if(!first && data === '') { d.end(); }
+                    if(first) { d.end(); process.exit(0); }
+
                 } else {
                    data += chunk;
                 }
                 first = false;
             });
             process.stdin.on('end', function() {
-                remote.open({data:data, clear:false}, function (s) {
+                remote.open({data:data, clear:argv.noclear}, function (s) {
                     d.end();
                 });
             });
