@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mick/geojson.app.git"
+    "url": "git://github.com/mick/geojsonapp.git"
   },
   "author": "Mick Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mick/geojson.app/issues"
+    "url": "https://github.com/mick/geojsonapp/issues"
   }
 }

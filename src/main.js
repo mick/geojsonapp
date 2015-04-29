@@ -19,8 +19,6 @@ server.listen(5004);
 
 var layers = [];
 
-
-
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlja3QiLCJhIjoiLXJIRS1NbyJ9.EfVT76g4A5dyuApW_zuIFQ';
 var map = new mapboxgl.Map({
   container: 'map',
