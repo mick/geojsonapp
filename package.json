@@ -8,8 +8,6 @@
     "electron-prebuilt": "^0.25.1",
     "geojson-extent": "^0.3.1",
     "geojson-normalize": "0.0.0",
-    "mapbox-gl": "^0.7.0",
-    "mapbox.js": "^2.1.8",
     "minimist": "^0.2.0"
   },
   "devDependencies": {},

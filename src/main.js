@@ -4,7 +4,7 @@ var dnode = require('dnode');
 var lightStyle = require('./style/mapbox-light.json');
 var geojsonExtent = require('geojson-extent');
 var geojsonNormalize = require('geojson-normalize');
-//var mapboxgl = require('mapbox-gl');
+
 var server = dnode({
     open : function (s, cb) {
         try {
@@ -30,7 +30,7 @@ var map = new mapboxgl.Map({
 var lineLayer;
 var markerLayer;
 
-function geojson(data, noClear){
+function geojson(data, noClear) {
     if(!noClear) clear();
     data = geojsonNormalize(data);
     var bounds = geojsonExtent(data);
