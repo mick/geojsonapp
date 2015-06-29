@@ -1,7 +1,7 @@
 {
   "name": "geojsonapp",
   "appname": "geojsonapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "preview geojson in an app",
   "dependencies": {
     "dnode": "^1.2.0",
