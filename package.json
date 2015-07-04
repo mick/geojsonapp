@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "electron ./index.js",
     "test": "echo 'not yet'"
   },
   "main": "index.js",
