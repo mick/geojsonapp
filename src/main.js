@@ -89,3 +89,5 @@ function clear(){
         map.removeSource('geojson');
     } catch(e){}
 }
+
+geojsonApp.menu.init();
