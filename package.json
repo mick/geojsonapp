@@ -4,14 +4,15 @@
   "version": "1.1.0",
   "description": "preview geojson in an app",
   "dependencies": {
-    "dnode": "^1.2.0",
-    "electron-prebuilt": "^0.25.1",
+    "dnode": "^1.2.1",
+    "electron-prebuilt": "^0.29.1",
     "geojson-extent": "^0.3.1",
-    "geojson-normalize": "0.0.0",
-    "minimist": "^0.2.0"
+    "geojson-normalize": "0.0.1",
+    "minimist": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "electron ./index.js",
     "test": "echo 'not yet'"
   },
   "main": "index.js",
